@@ -8,7 +8,7 @@
   http://www.arduino.cc/en/Tutorial/BlinkWithoutDelay
 */
 
-#include <Arduino.h>
+#include <Arduino.h> // to let the editor know what platform you are using
 
 
 unsigned long previousMillis = 0;        // will store last time LED was updated
