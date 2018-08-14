@@ -18,7 +18,7 @@ const long interval = 1000;           // interval at which to blink (millisecond
 
 void setup() {
   // set the digital pin as output:
-  pinMode(13, OUTPUT);
+  pinMode(6, OUTPUT);
 }
 
 void loop() {
@@ -31,6 +31,6 @@ void loop() {
     previousMillis = currentMillis;
 
     // change the state of the led to opposite of previous state 
-    digitalWrite(13, !digitalRead(13));
+    digitalWrite(6, !digitalRead(6));
   }
 } //end loop
